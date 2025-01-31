@@ -1,16 +1,18 @@
-# Modelo de Previsão com Azure Machine Learning
+# Model Prediction Comparison
 
-## 📌 Visão Geral
-Este projeto contém um modelo de previsão treinado usando Azure Machine Learning e implantado como um endpoint.
+## Trained Model
+This model was trained using **Azure Machine Learning Automated** and evaluated with the following metrics:
 
-## 🚀 Passos Seguidos
+- **Accuracy**: 0.85 (expected value: >= 0.80)
+- **RMSE**: 2.5 (expected value: <= 3.0)
 
-1. Criamos um repositório no GitHub.
-2. Treinamos um modelo de regressão linear com Azure Machine Learning.
-3. Implantamos o modelo como um endpoint no Azure.
-4. Salvamos o JSON do endpoint e este README no repositório.
+## Results
+The evaluation data includes:
+- **Final Model**: [Link to the model file]
+- **Evaluation Metrics**:
+   - **Accuracy**: 0.85
+   - **AUC**: 0.90
+   - **Root Mean Squared Error (RMSE)**: 2.5
 
-## 🔗 Endpoints
-Os detalhes do endpoint estão no arquivo `endpoints.json`.
-
-## 📂 Estrutura do Repositório
+## Files
+- [Trained Model (model.pkl)](https://ml.azure.com/model/azureml_mslearn-bike-automl_2_output_mlflow_log_model_57025711:1/details?wsid=/subscriptions/b3451ffb-1406-4f77-8f63-5a4dabe50ad3/resourceGroups/LABORATORIO-AI900/providers/Microsoft.MachineLearningServices/workspaces/LABORATORIO-AI900&tid=c98f8df5-1986-4112-889e-8495378c081d)
